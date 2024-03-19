@@ -10,4 +10,6 @@
 
 body {
   background-image: url(/src/assets/bg-img.png);
+  background-size: 200px 200px;
+  background-position: 0 0;
 }
