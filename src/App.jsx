@@ -5,11 +5,12 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import Photos from "./pages/Photos";
+import Navbar from "./pages/Navbar";
 
 function App() {
   return (
     <>
-      <h2>helo</h2>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
