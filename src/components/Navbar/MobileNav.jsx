@@ -45,7 +45,7 @@ function MobileNav() {
       >
         <div className="flex items-center justify-between mt-6 px-8">
           <NavLink to="/" className="text-slate-600 font-bold text-lg">
-            Mahdi Noori
+            <img className="w-[32px] h-auto" src={Logo} alt="My Logo" />
           </NavLink>
           <button
             className="text-black text-lg dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200 rounded-full p-2 duration-500 null"
