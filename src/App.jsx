@@ -9,6 +9,7 @@ import Photos from "./pages/Photos";
 function App() {
   return (
     <>
+      <h2>helo</h2>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
