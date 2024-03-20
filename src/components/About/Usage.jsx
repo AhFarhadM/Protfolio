@@ -19,6 +19,14 @@ function Usage() {
           <List data={data} key={data.id} />
         ))}
       </ul>
+      <h3 className="font-incognito before:content-['#'] before:hidden hover:before:inline before:absolute before:-left-5 before:text-2xl before:top-1/2 before:-translate-y-1/2 before:opacity-80 dark:before:text-zinc-500 before:text-zinc-400 relative inline-block font-semibold tracking-tight text-2xl mt-6 mb-2">
+        <a href="#technologies">Tools</a>
+      </h3>
+      <ul className="list-none mt-2 ml-2 dark:text-zinc-400 text-zinc-600">
+        {UsageData.tools.map((data) => (
+          <List data={data} key={data.id} />
+        ))}
+      </ul>
     </div>
   );
 }
