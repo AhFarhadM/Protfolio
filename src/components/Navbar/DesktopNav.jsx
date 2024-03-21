@@ -20,7 +20,7 @@ function DesktopNav() {
             <NavLink to="/blog">Blog</NavLink>
           </li>
           <li>
-            <NavLink to="/phtots">Photos</NavLink>
+            <NavLink to="/photos">Photos</NavLink>
           </li>
         </ul>
         <button className="text-xl dark:bg-primary-bg bg-zinc-100 dark:text-primary-color text-zinc-500 border dark:border-zinc-800 border-zinc-200 rounded-full p-2 duration-300 transition-transform group: -rotate-180">

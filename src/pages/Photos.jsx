@@ -1,4 +1,10 @@
+import PhotosSection from "../components/Photos/PhotosSection";
+
 function Photos() {
-  return <h2>This is Photos page.</h2>;
+  return (
+    <>
+      <PhotosSection />
+    </>
+  );
 }
 export default Photos;
