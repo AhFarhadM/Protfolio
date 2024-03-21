@@ -1,5 +1,10 @@
 import { IoTime } from "react-icons/io5";
 import { FaCalendar } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+import { FaFacebookSquare } from "react-icons/fa";
+import { RiWhatsappFill } from "react-icons/ri";
+
 import Img from "../../assets/blog/How have collaboration and teamwork enhanced my coding skills/img.jfif";
 import Author from "../../assets/blog/How have collaboration and teamwork enhanced my coding skills/author.jfif";
 
@@ -100,6 +105,7 @@ function Aside() {
     <aside className="flex flex-col lg:max-h-full h-max gap-y-8 sticky top-2 bottom-auto right-0 basis-1/4 py-10 lg:px-6 px-0">
       <AuthorSection />
       <Tags />
+      <ShareWith />
     </aside>
   );
 }
@@ -141,7 +147,7 @@ function Tags() {
       <h3 className="text-xl font-semibold tracking-tight mb-4">Tags</h3>
       <ul className="flex flex-wrap items-center gap-2 tracking-tight">
         <li className="dark:bg-primary-bg bg-zinc-100 border dark:border-zinc-800 border-zinc-200 rounded-md px-2 py-1 text-sm">
-          Tags
+          Coding
         </li>
         <li className="dark:bg-primary-bg bg-zinc-100 border dark:border-zinc-800 border-zinc-200 rounded-md px-2 py-1 text-sm">
           Collaboration
@@ -156,6 +162,44 @@ function Tags() {
           Programming
         </li>
       </ul>
+    </section>
+  );
+}
+
+function ShareWith() {
+  return (
+    <section className="border-b dark:border-zinc-800 border-zinc-200 pb-10">
+      <h3 className="text-xl font-semibold tracking-tight mb-4">Share Post</h3>
+      <div className="flex flex-wrap items-center gap-2 tracking-tight text-zinc-800">
+        <button
+          title="Share to Twitter"
+          aria-label="Share to Twitter"
+          className="w-12 h-12 p-2 grid place-content-center text-2xl dark:bg-primary-bg bg-zinc-100 border dark:border-zinc-800 border-zinc-200 rounded-md"
+        >
+          <BsTwitterX />
+        </button>
+        <button
+          title="Share to LinkedIn"
+          aria-label="Share to LinkedIn"
+          className="w-12 h-12 p-2 grid place-content-center text-2xl dark:bg-primary-bg bg-zinc-100 border dark:border-zinc-800 border-zinc-200 rounded-md"
+        >
+          <BsLinkedin />
+        </button>
+        <button
+          title="Share to Facebook"
+          aria-label="Share to Facebook"
+          className="w-12 h-12 p-2 grid place-content-center text-2xl dark:bg-primary-bg bg-zinc-100 border dark:border-zinc-800 border-zinc-200 rounded-md"
+        >
+          <FaFacebookSquare />
+        </button>
+        <button
+          title="Share to WhatsApp"
+          aria-label="Share to WhatsApp"
+          className="w-12 h-12 p-2 grid place-content-center text-2xl dark:bg-primary-bg bg-zinc-100 border dark:border-zinc-800 border-zinc-200 rounded-md"
+        >
+          <RiWhatsappFill />
+        </button>
+      </div>
     </section>
   );
 }
