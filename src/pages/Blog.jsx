@@ -1,4 +1,6 @@
+import BlogDetails from "../components/blog/BlogDetails";
+
 function Blog() {
-  return <h2>This is Blog page.</h2>;
+  return <BlogDetails />;
 }
 export default Blog;
