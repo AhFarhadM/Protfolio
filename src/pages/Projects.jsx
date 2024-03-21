@@ -1,10 +1,6 @@
-import ProjectsSection from "../components/ProjectsSection/ProjectsSection";
+import ProjectsSection from "../components/projects/ProjectsSection";
 
 function Projects() {
-  return (
-    <>
-      <ProjectsSection />
-    </>
-  );
+  return <ProjectsSection />;
 }
 export default Projects;
