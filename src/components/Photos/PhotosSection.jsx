@@ -4,7 +4,7 @@ import Img3 from "../../assets/photos/img3.jfif";
 
 function PhotosSection() {
   return (
-    <main className="max-w-7xl mx-auto md:px-16 px-6 lg:mt-32 mt-20">
+    <main className="max-w-7xl mx-auto md:px-16 px-6 lg:mt-32 mt-20 mb-20 lg:mb-40">
       <header className="mb-10">
         <div style={{ opacity: 1, transform: "none" }}>
           <h1 className="max-w-3xl font-incognito font-semibold tracking-tight sm:text-5xl text-3xl mb-6 lg:leading-[3.7rem]">
